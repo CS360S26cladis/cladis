@@ -3,11 +3,10 @@ package com.example.cladis;
 public abstract class Shape {
     Integer x;
     Integer y;
-    String color ;
+    String color = "violet";
 
-    public Shape(Integer x, Integer y,String color) {
+    public Shape(Integer x, Integer y) {
         this.x = x;
         this.y = y;
-        this.color = "red";
     }
 }
